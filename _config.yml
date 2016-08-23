@@ -1,3 +1,16 @@
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+    permalink:
+      path: '/:title/'
+typography_spectrum: 0.5789486
 color:
   saturation: 0.5032649
   brandStrength: 0.4519723
@@ -9,18 +22,5 @@ color:
     - '#6B574B'
     - '#160600'
   lightness: 0.7770522
-collections:
-  - index:
-      path: /
-      number: 15
-      paginate: true
-      navigable: true
-    permalink:
-      path: '/:title/'
-    feed:
-      path: /rss.xml
-      format: rss
-      number: 10
-layout_spectrum: 0.06623134
-typography_spectrum: 0.5789486
+layout_spectrum: 0.9836754
 name: Jasonbmarley
